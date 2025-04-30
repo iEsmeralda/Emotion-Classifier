@@ -10,7 +10,7 @@ Además se utilizó la base de datos Human Face Emotions disponible en el siguie
 ```python
 from roboflow import Roboflow
 
-rf = Roboflow(api_key="qoFwl0R0L9WDcXjtBjP2")
+rf = Roboflow(api_key="tu_clave_roboflow")
 project = rf.workspace("emotions-dectection").project("human-face-emotions")
 version = project.version(30)
 dataset = version.download("tensorflow")
